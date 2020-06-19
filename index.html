@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8" />
+    <title>console.log　変数の値の更新（2）</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="tallSlides-wrapper">
+        <div class="container">
+            <div class="tallSlides">
+                <ul>
+                    <li>
+                        <div class="cover"><img src="image/TallCarousel01.png"></div>
+                        <div class="text">
+                            <p class="caption">Top 10 Region</p>
+                            <p class="link"><span>See the List</span></p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cover"><img src="image/TallCarousel02.png"></div>
+                        <div class="text">
+                            <p class="caption">Top 10 Cities</p>
+                            <p class="link"><span>See the List</span></p>
+                        </div>
+                        
+                    </li>
+                    <li>
+                        <div class="cover"><img src="image/TallCarousel03.png"></div>
+                        <div class="text">
+                            <p class="caption">Top 10 Value</p>
+                            <p class="link"><span>See the List</span></p>
+                        </div>
+                        
+                    </li>
+                    <li>
+                        <div class="cover"><img src="image/TallCarousel04.png"></div>
+                        <div class="text">
+                            <p class="caption">Top 10 Countries</p>
+                            <p class="link"><span>See the List</span></p>
+                        </div>
+                        
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+<script>
+    let number = 11;
+    console.log (number);
+
+    number = number += 4;
+    console.log (number);
+    
+    number = number -= 4;
+    console.log (number);
+
+    number = number *= 2;
+    console.log (number);
+
+    number = number /= 11;
+    console.log (number);
+
+    number = number += 10;
+    console.log (number);
+
+    number = number -= 3;
+    console.log (number);
+
+    number = number *= 10;
+    console.log (number);
+
+    number = number /= 3;
+    console.log (number);
+</script>
+
+</body>
+</html>
